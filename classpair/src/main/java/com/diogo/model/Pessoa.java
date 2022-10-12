@@ -1,4 +1,4 @@
-package classpair.src.main.java.com.diogo.model;
+package com.diogo.model;
 
 public class Pessoa {
     private String nome;

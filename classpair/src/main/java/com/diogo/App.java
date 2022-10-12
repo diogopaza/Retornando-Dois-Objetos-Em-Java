@@ -1,15 +1,15 @@
-package classpair.src.main.java.com.diogo;
+package com.diogo;
 
+import com.diogo.controller.RetornaDoisObjetos;
+import com.diogo.model.Endereco;
+import com.diogo.model.Pessoa;
 import com.sun.tools.javac.util.Pair;
-import classpair.src.main.java.com.diogo.controller.ObjetosComClassePair;
-import classpair.src.main.java.com.diogo.model.Endereco;
-import classpair.src.main.java.com.diogo.model.Pessoa;
 
 public class App {
     public static void main(String[] args) {
 
-        ObjetosComClassePair objPair = new ObjetosComClassePair();
-        Pair<Pessoa, Endereco> pair = objPair.getPessoaComEndereco();
+        RetornaDoisObjetos retornaDosObjetos = new RetornaDoisObjetos();
+        Pair<Pessoa, Endereco> pair = retornaDosObjetos.getPessoaComEndereco();
 
         System.out.println(String.format("A pessoa %s de idade %d anos,"
                 + "mora na rua %s numero %d",

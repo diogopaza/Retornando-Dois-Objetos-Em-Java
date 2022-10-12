@@ -1,11 +1,11 @@
-package classpair.src.main.java.com.diogo.controller;
+package com.diogo.controller;
 
+import com.diogo.model.Endereco;
+import com.diogo.model.Pessoa;
 import com.sun.tools.javac.util.Pair;
-import classpair.src.main.java.com.diogo.model.Endereco;
-import classpair.src.main.java.com.diogo.model.Pessoa;
 
 
-public class ObjetosComClassePair {   
+public class RetornaDoisObjetos {   
    
     public Pair<Pessoa,Endereco> getPessoaComEndereco(){
         //definido os objetos para retornar
