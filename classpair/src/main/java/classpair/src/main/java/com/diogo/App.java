@@ -11,9 +11,10 @@ public class App {
         ObjetosComClassePair objPair = new ObjetosComClassePair();
         Pair<Pessoa, Endereco> pair = objPair.getPessoaComEndereco();
 
-        System.out.println(String.format("A pessoa %s mora na rua %s",
-                pair.fst.getNome(), pair.snd.getRua()));
-
+        System.out.println(String.format("A pessoa %s de idade %d anos,"
+                + "mora na rua %s numero %d",
+                pair.fst.getNome(), pair.fst.getIdade(),
+                pair.snd.getRua(), pair.snd.getNumero()));
         System.out.println("hello");
     }
 }
